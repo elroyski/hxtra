@@ -4,7 +4,7 @@
 
 This fork documents an experimental Edit view for HXtra 3.80.0. It shows artwork for the selected amp, cab, or effect below the signal chain, and previews the highlighted model in the browser. The Edit view also shows the selected block name, DSP usage, and a parameter page indicator. NAM A2 Lite shows the TONE3000 logo and displays the selected capture name when available.
 
-I tested this prototype on my **Line 6 HX Stomp** using a temporary RAM boot. I did not have access to an **HX Stomp XL, HX Effects, or other Helix devices** to test them.
+I tested this prototype on my **Line 6 HX Stomp** both with a temporary RAM boot and after a full firmware installation to the device's internal storage. I did not have access to an **HX Stomp XL, HX Effects, or other Helix devices** to test them.
 
 This fork currently publishes screenshots and documentation. The [upstream browser setup](https://wisemandenny.github.io/hxtra/web/) can build HXtra from the original HX Stomp 3.80.0 firmware and run it in RAM over WebUSB. A browser build and RAM trial for Model Pictures are not available yet.
 
