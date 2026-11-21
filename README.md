@@ -1,3 +1,29 @@
+# HXtra Model Pictures
+
+**Experimental · Line 6 HX Stomp only**
+
+This fork documents an experimental Edit view for HXtra 3.80.0. It shows artwork for the selected amp, cab, or effect below the signal chain, and previews the highlighted model in the browser. The Edit view also shows the selected block name, DSP usage, and a parameter page indicator. NAM A2 Lite shows the TONE3000 logo and displays the selected capture name when available.
+
+The prototype was run and checked on a physical **HX Stomp** using a temporary RAM boot. **HX Stomp XL, HX Effects, and other Helix devices have not been tested** because they were unavailable. This preview contains screenshots and documentation. The experimental build and its builder are not included here.
+
+## Screenshots
+
+| Edit view · amplifier | Model browser · cab preview |
+| --- | --- |
+| ![Essex A30 artwork below the signal chain](docs/assets/model-pictures/edit-amp.png) | ![Cab list with a preview of the selected cabinet](docs/assets/model-pictures/browser-cab.png) |
+
+| Edit view · cab | Edit view · stomp |
+| --- | --- |
+| ![4x10 Garden cab artwork and mic parameters](docs/assets/model-pictures/edit-cab.png) | ![Scream808 artwork and drive parameters](docs/assets/model-pictures/edit-drive.png) |
+
+| Edit view · reverb | Edit view · NAM A2 Lite |
+| --- | --- |
+| ![Dynamic Ambience artwork and the parameter page indicator](docs/assets/model-pictures/edit-reverb.png) | ![NAM A2 Lite capture name and enlarged TONE3000 logo](docs/assets/model-pictures/edit-nam-tone3000.png) |
+
+## Upstream HXtra
+
+The original HXtra documentation follows. Its installer links are for the upstream project.
+
 <div align="center">
 
 <a href="https://wisemandenny.github.io/hxtra/web/"><img src="docs/assets/banner.svg" alt="HXtra: custom firmware for the Line 6 HX Stomp" width="100%"></a>
