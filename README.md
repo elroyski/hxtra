@@ -22,6 +22,12 @@ This fork currently publishes screenshots and documentation. The [upstream brows
 | --- | --- |
 | ![Dynamic Ambience artwork and the parameter page indicator](docs/assets/model-pictures/edit-reverb.png) | ![NAM A2 Lite capture name and enlarged TONE3000 logo](docs/assets/model-pictures/edit-nam-tone3000.png) |
 
+## Boot splash
+
+I made this modification as a tribute to **Death**. The boot splash features the cover of their album *Scream Bloody Gore*.
+
+![HX Stomp boot splash featuring the cover of Scream Bloody Gore by Death](docs/assets/model-pictures/boot-splash-death.png)
+
 ## Upstream HXtra
 
 The original HXtra documentation follows. Its installer links are for the upstream project.
