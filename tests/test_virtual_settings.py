@@ -365,7 +365,7 @@ class Built:
 
 
 ALL = {'HX_TUNER': '1', 'HX_BPM': '1', 'HX_DSP_METER': '1', 'HX_LONG_PRESS': '1', 'HX_MORE_SNAPSHOTS': '1', 'HX_BREATHING_LINE': '1',
-       'HX_TAP_COLOR': '1', 'HX_USB_MONITOR': '1', 'HX_PRESET_COLOR': '1'}
+       'HX_TAP_COLOR': '1', 'HX_USB_MONITOR': '1', 'HX_PRESET_COLOR': '1', 'HX_MODEL_PICTURES': '1'}
 
 
 @pytest.mark.firmware
@@ -504,8 +504,8 @@ def test_built_turn_on_the_displays_page(m4emu):
 
 @pytest.mark.firmware
 def test_built_turn_on_the_displays_second_page(m4emu):
-    """Preset LED Color after Tap LED Color fills Displays' first page, so it opens a second: the stock turn steps it through the engine."""
-    new, _ = menu_entry0(stock_e0(), MODS, {'HX_TAP_COLOR': '1', 'HX_PRESET_COLOR': '1'})
+    """The second Displays page keeps the preset controls and adds Model Pictures in slot 3."""
+    new, _ = menu_entry0(stock_e0(), MODS, {'HX_TAP_COLOR': '1', 'HX_PRESET_COLOR': '1', 'HX_MODEL_PICTURES': '1'})
     b = Built(m4emu, new)
     m = b.m
     b.m.write(record(113) + 8, struct.pack('<BxxxI', 3, FLOAT_ONE))
@@ -514,6 +514,12 @@ def test_built_turn_on_the_displays_second_page(m4emu):
     m.call(0x28dcef50, VIEW, 0, 4)
     assert b.get(SETTINGS_IDS['preset_color.color']) == (0, (2, 1))     # Red -> DkOrange
     assert struct.unpack('<BxxxI', m.read(record(113) + 8, 8)) == (2, 1)
+    pictures = SETTINGS_IDS['model_pictures.enabled']
+    assert b.get(pictures) == (0, (2, 0))                            # On by default
+    m.call(0x28dcef50, VIEW, 2, 4)
+    assert b.get(pictures) == (0, (2, 1))                            # Off
+    m.call(0x28dcef50, VIEW, 2, -4)
+    assert b.get(pictures) == (0, (2, 0))                            # On again
 
 
 @pytest.mark.firmware
