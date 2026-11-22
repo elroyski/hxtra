@@ -10,17 +10,27 @@ This fork currently publishes screenshots and documentation. The [upstream brows
 
 ## Screenshots
 
-| Edit view · amplifier | Model browser · cab preview |
-| --- | --- |
-| ![Essex A30 artwork below the signal chain](docs/assets/model-pictures/edit-amp.png) | ![Cab list with a preview of the selected cabinet](docs/assets/model-pictures/browser-cab.png) |
+Captured directly from my HX Stomp. The centered block name uses a colored category label. On split paths the artwork fits below the lower branch.
 
-| Edit view · cab | Edit view · stomp |
+| Edit · amplifier | Edit · amp and cab |
 | --- | --- |
-| ![4x10 Garden cab artwork and mic parameters](docs/assets/model-pictures/edit-cab.png) | ![Scream808 artwork and drive parameters](docs/assets/model-pictures/edit-drive.png) |
+| ![German Mahadeva amplifier artwork and coral AMP label](docs/assets/model-pictures/edit-amp.png) | ![Interstate Zed artwork with a centered AMP+CAB label](docs/assets/model-pictures/edit-amp-cab.png) |
 
-| Edit view · reverb | Edit view · NAM A2 Lite |
+| Edit · cab | Model browser · cab preview |
 | --- | --- |
-| ![Dynamic Ambience artwork and the parameter page indicator](docs/assets/model-pictures/edit-reverb.png) | ![NAM A2 Lite capture name and enlarged TONE3000 logo](docs/assets/model-pictures/edit-nam-tone3000.png) |
+| ![4x12 1960A T75 cabinet artwork and microphone controls](docs/assets/model-pictures/edit-cab.png) | ![Cabinet illustration alongside the highlighted 4x12 1960A T75](docs/assets/model-pictures/browser-cab.png) |
+
+| Edit · drive | Edit · delay |
+| --- | --- |
+| ![Teemah! drive pedal with an amber DIST label](docs/assets/model-pictures/edit-drive.png) | ![Ducked Delay artwork with a green DELAY label](docs/assets/model-pictures/edit-delay.png) |
+
+| Edit · reverb | Edit · compressor |
+| --- | --- |
+| ![1963 Spring Reverb unit with a peach REVERB label](docs/assets/model-pictures/edit-reverb.png) | ![LA Studio Comp artwork with a yellow DYNAMICS label](docs/assets/model-pictures/edit-compressor.png) |
+
+| Edit · NAM A2 Lite | Edit · split path |
+| --- | --- |
+| ![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/edit-nam-tone3000.png) | ![Synth String artwork centered below the lower signal branch](docs/assets/model-pictures/edit-split.png) |
 
 ## Boot splash
 
