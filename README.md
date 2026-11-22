@@ -6,7 +6,7 @@ This fork documents an experimental Edit view for HXtra 3.80.0. It shows artwork
 
 I tested this prototype on my **Line 6 HX Stomp** both with a temporary RAM boot and after a full firmware installation to the device's internal storage. I did not have access to an **HX Stomp XL, HX Effects, or other Helix devices** to test them.
 
-This fork currently publishes screenshots and documentation. The [upstream browser setup](https://wisemandenny.github.io/hxtra/web/) can build HXtra from the original HX Stomp 3.80.0 firmware and run it in RAM over WebUSB. A browser build and RAM trial for Model Pictures are not available yet.
+The Model Pictures source and Linux tools are available in this fork. Follow the [build and flash guide](docs/model-pictures.md) to build from your own copy of the original HX Stomp 3.80.0 firmware. The [upstream browser setup](https://wisemandenny.github.io/hxtra/web/) still builds upstream HXtra.
 
 ## Screenshots
 
