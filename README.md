@@ -14,23 +14,23 @@ Captured directly from my HX Stomp. The centered block name uses a colored categ
 
 | Edit · amplifier | Edit · amp and cab |
 | --- | --- |
-| ![German Mahadeva amplifier artwork and coral AMP label](docs/assets/model-pictures/edit-amp.png) | ![Interstate Zed artwork with a centered AMP+CAB label](docs/assets/model-pictures/edit-amp-cab.png) |
+| ![German Mahadeva amplifier artwork and coral AMP label](docs/assets/model-pictures/amp-german-mahadeva.png) | ![Interstate Zed artwork with a centered AMP+CAB label](docs/assets/model-pictures/amp-cab-interstate-zed.png) |
 
 | Edit · cab | Model browser · cab preview |
 | --- | --- |
-| ![4x12 1960A T75 cabinet artwork and microphone controls](docs/assets/model-pictures/edit-cab.png) | ![Cabinet illustration alongside the highlighted 4x12 1960A T75](docs/assets/model-pictures/browser-cab.png) |
+| ![4x12 1960A T75 cabinet artwork and microphone controls](docs/assets/model-pictures/cab-marshall-1960a-t75.png) | ![Cabinet illustration alongside the highlighted 4x12 1960A T75](docs/assets/model-pictures/browser-marshall-1960a-t75.png) |
 
 | Edit · drive | Edit · delay |
 | --- | --- |
-| ![Teemah! drive pedal with an amber DIST label](docs/assets/model-pictures/edit-drive.png) | ![Ducked Delay artwork with a green DELAY label](docs/assets/model-pictures/edit-delay.png) |
+| ![Teemah! drive pedal with an amber DIST label](docs/assets/model-pictures/distortion-teemah.png) | ![Ducked Delay artwork with a green DELAY label](docs/assets/model-pictures/delay-ducked-delay.png) |
 
 | Edit · reverb | Edit · compressor |
 | --- | --- |
-| ![1963 Spring Reverb unit with a peach REVERB label](docs/assets/model-pictures/edit-reverb.png) | ![LA Studio Comp artwork with a yellow DYNAMICS label](docs/assets/model-pictures/edit-compressor.png) |
+| ![1963 Spring Reverb unit with a peach REVERB label](docs/assets/model-pictures/reverb-63-spring.png) | ![LA Studio Comp artwork with a yellow DYNAMICS label](docs/assets/model-pictures/dynamics-la-studio-comp.png) |
 
 | Edit · NAM A2 Lite | Edit · split path |
 | --- | --- |
-| ![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/edit-nam-tone3000.png) | ![Synth String artwork centered below the lower signal branch](docs/assets/model-pictures/edit-split.png) |
+| ![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/nam-capture-with-tone3000.png) | ![Synth String artwork centered below the lower signal branch](docs/assets/model-pictures/split-path-synth-string.png) |
 
 ## Boot splash
 
