@@ -10,27 +10,31 @@ This fork currently publishes screenshots and documentation. The [upstream brows
 
 ## Screenshots
 
-Captured directly from my HX Stomp. The centered block name uses a colored category label. On split paths the artwork fits below the lower branch.
+Captured directly from my HX Stomp. The centered heading uses the same model names as HXtra’s browser. Stereo models show two overlapping circles beside the name. Select a thumbnail to open the full screenshot.
 
 | Edit · amplifier | Edit · amp and cab |
 | --- | --- |
-| ![German Mahadeva amplifier artwork and coral AMP label](docs/assets/model-pictures/amp-german-mahadeva.png) | ![Interstate Zed artwork with a centered AMP+CAB label](docs/assets/model-pictures/amp-cab-interstate-zed.png) |
+| [![Bogner Shiva amplifier artwork and coral AMP label](docs/assets/model-pictures/thumbnails/amp-bogner-shiva-real-names.png)](docs/assets/model-pictures/amp-bogner-shiva-real-names.png) | [![Dr Z Route 66 artwork with a centered AMP+CAB label](docs/assets/model-pictures/thumbnails/amp-cab-dr-z-route-66-real-names.png)](docs/assets/model-pictures/amp-cab-dr-z-route-66-real-names.png) |
 
 | Edit · cab | Model browser · cab preview |
 | --- | --- |
-| ![4x12 1960A T75 cabinet artwork and microphone controls](docs/assets/model-pictures/cab-marshall-1960a-t75.png) | ![Cabinet illustration alongside the highlighted 4x12 1960A T75](docs/assets/model-pictures/browser-marshall-1960a-t75.png) |
+| [![4x12 1960A T75 cabinet artwork and microphone controls](docs/assets/model-pictures/thumbnails/cab-1960a-t75-real-names.png)](docs/assets/model-pictures/cab-1960a-t75-real-names.png) | [![Cabinet illustration alongside the highlighted 4x12 1960A T75](docs/assets/model-pictures/thumbnails/browser-1960a-t75-real-names.png)](docs/assets/model-pictures/browser-1960a-t75-real-names.png) |
 
 | Edit · drive | Edit · delay |
 | --- | --- |
-| ![Teemah! drive pedal with an amber DIST label](docs/assets/model-pictures/distortion-teemah.png) | ![Ducked Delay artwork with a green DELAY label](docs/assets/model-pictures/delay-ducked-delay.png) |
+| [![Timmy Overdrive artwork with an amber DIST label](docs/assets/model-pictures/thumbnails/drive-timmy-overdrive-real-names.png)](docs/assets/model-pictures/drive-timmy-overdrive-real-names.png) | [![Echoplex EP-3 artwork with a green DELAY label](docs/assets/model-pictures/thumbnails/delay-echoplex-ep-3-real-names.png)](docs/assets/model-pictures/delay-echoplex-ep-3-real-names.png) |
 
 | Edit · reverb | Edit · compressor |
 | --- | --- |
-| ![1963 Spring Reverb unit with a peach REVERB label](docs/assets/model-pictures/reverb-63-spring.png) | ![LA Studio Comp artwork with a yellow DYNAMICS label](docs/assets/model-pictures/dynamics-la-studio-comp.png) |
+| [![63 Spring artwork with a peach REVERB label](docs/assets/model-pictures/thumbnails/reverb-63-spring-real-names.png)](docs/assets/model-pictures/reverb-63-spring-real-names.png) | [![Teletronix LA-2A artwork with a yellow DYNAMICS label](docs/assets/model-pictures/thumbnails/compressor-teletronix-la-2a-real-names.png)](docs/assets/model-pictures/compressor-teletronix-la-2a-real-names.png) |
 
-| Edit · NAM A2 Lite | Edit · split path |
+| Edit · split path | Edit · stereo modulation |
 | --- | --- |
-| ![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/nam-capture-with-tone3000.png) | ![Synth String artwork centered below the lower signal branch](docs/assets/model-pictures/split-path-synth-string.png) |
+| [![Roland GR-700 artwork below the lower signal branch](docs/assets/model-pictures/thumbnails/split-roland-gr-700-real-names.png)](docs/assets/model-pictures/split-roland-gr-700-real-names.png) | [![Boss VB-2 artwork and the stereo icon beside the MOD label](docs/assets/model-pictures/thumbnails/mod-boss-vb-2-stereo-real-names.png)](docs/assets/model-pictures/mod-boss-vb-2-stereo-real-names.png) |
+
+| Edit · NAM A2 Lite |
+| --- |
+| [![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/thumbnails/nam-tone3000-capture-real-names.png)](docs/assets/model-pictures/nam-tone3000-capture-real-names.png) |
 
 ## Boot splash
 
