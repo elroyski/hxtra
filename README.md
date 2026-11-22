@@ -32,9 +32,11 @@ Captured directly from my HX Stomp. The centered heading uses the same model nam
 | --- | --- |
 | [![Roland GR-700 artwork below the lower signal branch](docs/assets/model-pictures/thumbnails/split-roland-gr-700-real-names.png)](docs/assets/model-pictures/split-roland-gr-700-real-names.png) | [![Boss VB-2 artwork and the stereo icon beside the MOD label](docs/assets/model-pictures/thumbnails/mod-boss-vb-2-stereo-real-names.png)](docs/assets/model-pictures/mod-boss-vb-2-stereo-real-names.png) |
 
-| Edit · NAM A2 Lite |
-| --- |
-| [![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/thumbnails/nam-tone3000-capture-real-names.png)](docs/assets/model-pictures/nam-tone3000-capture-real-names.png) |
+| Edit · NAM A2 Lite | Global Settings · Displays, page 2 |
+| --- | --- |
+| [![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/thumbnails/nam-tone3000-capture-real-names.png)](docs/assets/model-pictures/nam-tone3000-capture-real-names.png) | [![Model Pictures set to On in the rightmost slot on page 2 of Displays](docs/assets/model-pictures/thumbnails/displays-model-pictures.png)](docs/assets/model-pictures/displays-model-pictures.png) |
+
+In **Global Settings → Displays**, press **PAGE ▶** to reach page 2. Turn the rightmost lower knob to switch **Model Pictures** between **On** and **Off**. The default is **On**.
 
 ## Boot splash
 
