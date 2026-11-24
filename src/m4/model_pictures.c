@@ -17,7 +17,7 @@ typedef int i32;
 #define EDIT_PARAMS 0x28128270u
 #define CHANNEL_WIDGET 0x281f72b0u
 #define LABELS 0x281f7370u
-#define CAPTURE_TITLE (LABELS+0x30u)
+#define DETAIL_TITLE (LABELS+0x30u)
 #define VALUES 0x281f76a8u
 #define PAGE_SEGMENT 0x281f7220u
 #define PAGE_COUNT 0x281f79a4u
@@ -31,6 +31,7 @@ typedef struct {u32 made;u32 image[9];u32 node[10];} State;
 typedef struct {int top,bottom,shift;} GraphLayout;
 typedef struct {u16 compact;u8 height,compact_height;} PictureLayout;
 typedef struct {u16 plain,plain_width,colon,colon_width;char label[10];} CategoryStyle;
+enum {OUTPUT_CATEGORY=20};
 #define S ((volatile State *)STATE_ADDRESS)
 
 static int pictures_enabled(void){
@@ -101,7 +102,7 @@ static void block_title(u32 fb,u32 pid,u8 category){
     const char *name=widget_string(LABELS);
     if(pid==NAM_PID){
         /* The donor's IR title hook updates a separate text widget. */
-        const char *capture=widget_string(CAPTURE_TITLE);
+        const char *capture=widget_string(DETAIL_TITLE);
         if(capture&&capture[0]!='<')name=capture;
     }
     if(pid<PID_COUNT){
@@ -116,6 +117,11 @@ static void block_title(u32 fb,u32 pid,u8 category){
     }
     const CategoryStyle *style=(const CategoryStyle*)CATEGORY_STYLES+
                                (category<CATEGORY_COUNT?category:0);
+    /* The stock inspector writes the active route to its detail widget. */
+    const char *route=0;
+    if(pid==INPUT_PID||category==OUTPUT_CATEGORY)
+        route=widget_string(DETAIL_TITLE);
+    if(route)name=route;
     /* Use the same channel indicator as Edit, including its bypassed state. */
     u32 channel_image=W(CHANNEL_WIDGET);
     int stereo=B(CHANNEL_WIDGET+0x1d)&&
@@ -129,7 +135,7 @@ static void block_title(u32 fb,u32 pid,u8 category){
         return;
     }
     int max_width=308-badge_width;
-    int prefix_width=style->colon?style->colon_width+7:0;
+    int prefix_width=!route&&style->colon?style->colon_width+7:0;
     int width=prefix_width,visible=0;
     while(visible<n&&width+heading_glyph(name[visible])[1]<=max_width)
         width+=heading_glyph(name[visible++])[1];
@@ -141,7 +147,7 @@ static void block_title(u32 fb,u32 pid,u8 category){
         width+=ellipsis_width;
     }
     int x=(320-width-badge_width+(stereo?0:2))/2;
-    image(fb,style->colon,x,TITLE_Y,6);
+    if(prefix_width)image(fb,style->colon,x,TITLE_Y,6);
     x=heading_text(fb,name,visible,x+prefix_width);
     if(abbreviated)x=heading_text(fb,"...",3,x);
     if(stereo)image(fb,STEREO_BADGE,x+STEREO_GAP,STEREO_Y,6);

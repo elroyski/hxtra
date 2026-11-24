@@ -18,7 +18,7 @@ The output is `build/model-pictures/HX_Stomp_3.80.0_Model_Pictures.hxf`. Keep th
 
 The first build downloads the catalog illustrations from Line 6 and the TONE3000 logo from their site. It keeps the downloads under `build/model-pictures/art/` and checks the catalog's recorded SHA-256 hashes. `--art-cache DIR` reuses a local cache. If your FFmpeg lacks the SVG decoder, download the TONE3000 logo as a PNG and pass `--tone3000-logo PATH`. The displayed gallery uses a custom boot splash. You can pass your own 320 × 240 PNG with `--splash PATH`.
 
-The build enables HXtra's real names and the usual two NAM A2 Lite slots for this profile. On the pedal, **Global Settings → Displays → page 2 → Model Pictures** switches the illustrated views on or off. The default is **On**.
+The build enables HXtra's real names and the usual two NAM A2 Lite slots for this profile. On the pedal, **Global Settings → Displays → page 2 → Model Pictures** switches the illustrated views on or off. The default is **Off**. A previously saved selection is kept.
 
 ## Preview the install in the terminal
 

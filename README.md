@@ -36,7 +36,7 @@ Captured directly from my HX Stomp. The centered heading uses the same model nam
 | --- | --- |
 | [![Selected NAM capture name and TONE3000 logo](docs/assets/model-pictures/thumbnails/nam-tone3000-capture-real-names.png)](docs/assets/model-pictures/nam-tone3000-capture-real-names.png) | [![Model Pictures set to On in the rightmost slot on page 2 of Displays](docs/assets/model-pictures/thumbnails/displays-model-pictures.png)](docs/assets/model-pictures/displays-model-pictures.png) |
 
-In **Global Settings → Displays**, press **PAGE ▶** to reach page 2. Turn the rightmost lower knob to switch **Model Pictures** between **On** and **Off**. The default is **On**.
+In **Global Settings → Displays**, press **PAGE ▶** to reach page 2. Turn the rightmost lower knob to switch **Model Pictures** between **On** and **Off**. The default is **Off**. A previously saved selection is kept.
 
 ## Boot splash
 

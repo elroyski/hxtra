@@ -515,11 +515,12 @@ def test_built_turn_on_the_displays_second_page(m4emu):
     assert b.get(SETTINGS_IDS['preset_color.color']) == (0, (2, 1))     # Red -> DkOrange
     assert struct.unpack('<BxxxI', m.read(record(113) + 8, 8)) == (2, 1)
     pictures = SETTINGS_IDS['model_pictures.enabled']
-    assert b.get(pictures) == (0, (2, 0))                            # On by default
-    m.call(0x28dcef50, VIEW, 2, 4)
-    assert b.get(pictures) == (0, (2, 1))                            # Off
+    assert b.get(pictures) == (0, (2, 1))                            # Off on an unset store
     m.call(0x28dcef50, VIEW, 2, -4)
-    assert b.get(pictures) == (0, (2, 0))                            # On again
+    assert b.get(pictures) == (0, (2, 0))                            # On
+    assert struct.unpack('<BxxxI', m.read(record(114) + 8, 8)) == (2, 0)
+    m.call(0x28dcef50, VIEW, 2, 4)
+    assert b.get(pictures) == (0, (2, 1))                            # Off again
 
 
 @pytest.mark.firmware

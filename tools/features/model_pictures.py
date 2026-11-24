@@ -5,4 +5,4 @@ FLAG = 'HX_MODEL_PICTURES'
 WEB = False
 MENU = 'Displays'
 ORDER = 120
-SETTINGS = (Setting('enabled', b'Pictures\nModel', (b'On', b'Off')),)
+SETTINGS = (Setting('enabled', b'Pictures\nModel', (b'On', b'Off'), default=1),)
